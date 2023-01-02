@@ -1,0 +1,68 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background: url(/images/pexels-jonathan-petersson-399187.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.navlinks{
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: center;
+  /* margin-top: 25px; */
+}
+
+.navlinks a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+
+.table-body{
+  margin-top: 60px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.table{
+  height: 400px;
+  align-items: center;
+}
+
+
+.contact{
+  margin-top: 100px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+}
+
+.whatsapp-icon{
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks a:hover{
+ color: rgb(81, 81, 213);
+ transition: 0.5s;
+}
+button{
+  background-color: rgb(34, 34, 220);
+  color: white;
+  border-radius: 15px;
+  width: 145px;
+  border: 3px solid white;
+}
